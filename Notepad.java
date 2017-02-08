@@ -43,7 +43,7 @@ public class Notepad extends JFrame implements ActionListener {
 	
 	public void actionPerformed (ActionEvent e) {
 		if (e.getSource() == this.close)
-			this.dispose(); // dispose all resources and close the application
+			this.dispose();
 		
 		else if (e.getSource() == this.openFile) {
 			JFileChooser open = new JFileChooser();
